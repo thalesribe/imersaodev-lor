@@ -1,15 +1,46 @@
 document.addEventListener("DOMContentLoaded", function () {
   const perguntas = [
-    {
-      pergunta: "Só os sábios passam. Escolha bem, humano!",
-      respostas: [
-        { opcao: "O fogo se apaga quando está com fome", correto: false },
-        { opcao: "O espelho nunca mente, mas também nunca fala.", correto: true },
-        { opcao: "Um rio seco ainda afoga tolos.", correto: false }
-      ]
-    },
-    // ... outras perguntas
-  ];
+  {
+    pergunta: "Só os sábios passam. Escolha bem, humano!",
+    respostas: [
+      { opcao: "O fogo se apaga quando está com fome", correto: false },
+      { opcao: "O espelho nunca mente, mas também nunca fala.", correto: true },
+      { opcao: "Um rio seco ainda afoga tolos.", correto: false }
+    ]
+  },
+  {
+    pergunta: "A verdade está entre linhas. Leia com cuidado:",
+    respostas: [
+      { opcao: "Se fechar os olhos, o tempo para.", correto: false },
+      { opcao: "Um relógio parado acerta duas vezes ao dia.", correto: true },
+      { opcao: "A sombra pesa mais que a luz.", correto: false }
+    ]
+  },
+  {
+    pergunta: "Apenas quem observa bem, entende:",
+    respostas: [
+      { opcao: "As nuvens são feitas de fumaça mágica.", correto: false },
+      { opcao: "O sol gira em torno da Terra uma vez por dia.", correto: false },
+      { opcao: "A água ferve a 100°C ao nível do mar.", correto: true }
+    ]
+  },
+  {
+    pergunta: "Teste seu bom senso. Só uma é lógica:",
+    respostas: [
+      { opcao: "Todos os caminhos levam ao erro.", correto: false },
+      { opcao: "Alguns objetos são azuis. Todos os livros são objetos. Logo, alguns livros podem ser azuis.", correto: true },
+      { opcao: "Se um gato mia, todo animal mia.", correto: false }
+    ]
+  },
+  {
+    pergunta: "A ponte só abre para quem entende o mundo:",
+    respostas: [
+      { opcao: "O vento sopra porque o céu respira.", correto: false },
+      { opcao: "Quem está em silêncio, diz mais que mil palavras.", correto: false },
+      { opcao: "Um espelho reflete, mas nunca emite luz própria.", correto: true }
+    ]
+  }
+];
 
   const perguntaElemento = document.querySelector(".pergunta");
   const respostasElemento = document.querySelector(".respostas");
